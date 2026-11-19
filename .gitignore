@@ -1,0 +1,26 @@
+# gradle
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# kotlin
+.kotlin
+
+# ide
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+.vscode/
+
+# environment
+.env
+
+# nix
+.direnv/
+
+# jvm
+*.hprof
