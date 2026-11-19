@@ -1,6 +1,6 @@
 # Sora
 
-Sora is a work-in-progress server for osu!stable and osu!lazer. Players on both clients will be able to connect to the same server and interact with each other.
+Sora is a work-in-progress server for stable and lazer. Players on both clients will be able to connect to the same server and interact with each other.
 
 ## License
 
