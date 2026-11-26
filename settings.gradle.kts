@@ -3,5 +3,3 @@ plugins {
 }
 
 rootProject.name = "sora"
-
-includeBuild("third_party/chio")

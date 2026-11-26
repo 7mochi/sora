@@ -37,7 +37,7 @@ dependencies {
 
     implementation("org.flywaydb:flyway-mysql")
 
-    implementation("io.github.nanamochi:chio")
+    implementation("io.github.7mochi:chio:0.0.1")
 
     testImplementation("io.quarkus:quarkus-junit")
     testImplementation("io.quarkus:quarkus-junit-mockito")
@@ -55,7 +55,7 @@ spotless {
 
     kotlin {
         target("src/**/*.kt")
-        targetExclude(".direnv/**", "third_party/**")
+        targetExclude(".direnv/**")
         ktfmt("0.61").kotlinlangStyle().configure {
             it.setMaxWidth(100)
             it.setRemoveUnusedImports(true)
